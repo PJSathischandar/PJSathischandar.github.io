@@ -124,7 +124,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Purdue University West Lafayette",
-      logo: require("./assets/images/purdue-university.svg"),
+      logo: require("/Users/pjsathischandar/Documents/my projects/my portfolio/developerFolio/src/assets/images/purdue-university.svg"),
       subHeader: "Bachelors of Science in Computer Science and AI",
       duration: "Aug 2023 - Present",
       desc: "Participated in the research of human-assistance robotics.",
