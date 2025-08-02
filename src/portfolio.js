@@ -26,7 +26,7 @@ const greeting = {
     "A current Purdue student with experience in full-stack development and a passion for learning about cutting edge AI tools and technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-pHEkLiIZ1juNycPZMdLYGABkVmOU4qS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-pHEkLiIZ1juNycPZMdLYGABkVmOU4qS/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
