@@ -26,7 +26,7 @@ const greeting = {
     "A current Purdue student with experience in full-stack development and a passion for learning about cutting edge AI tools and technologies."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-pHEkLiIZ1juNycPZMdLYGABkVmOU4qS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -200,19 +200,20 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Developer Intern",
-      company: "Kovan Labs",
-      companylogo: require("./assets/images/logo-kovan.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
       role: "Research Developer",
       company: "Purdue University(VIP Program)",
       companylogo: require("./assets/images/purdueLogo.png"),
       date: "May 2025 – Present",
       desc: "Working on a research project focused on human-assistance robotics, developing algorithms to make robots assist patients with mobility issues in ROS.",
+    },
+    {
+      role: "Software Developer Intern",
+      company: "Kovan Labs",
+      companylogo: require("./assets/images/logo-kovan.png"),
+      date: "May 2024 – Sept 2024",
+      desc: "Worked on a Retrieval-Augmented Generation (RAG) LLM-powered life planner app, contributing to code optimization and user experience design to streamline automation processes. Utilized Python for the backend and React for the frontend, leveraging technologies such as Ollama, Langchain, and Streamlit to build an efficient and user-friendly web application."
     }
+    
   ]
 };
 
@@ -378,9 +379,8 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  resumeLink: "https://drive.google.com/file/d/your-google-drive-file-id/view?usp=sharing",
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
