@@ -62,6 +62,22 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fab fa-envira"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -94,25 +110,26 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "mysql",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "azure",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "Google cloud",
+      fontAwesomeClassname: "fas fa-cloud"
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -148,7 +165,19 @@ const techStack = {
     },
     {
       Stack: "Python",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Flask",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Model Context Protocol(MCP)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "AI Agentic",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -160,29 +189,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Founder & AI Developer",
+      company: "Tutor AI",
+      companylogo: require("./assets/images/TutorAI.png"),
+      date: "May 2025 – Present",
+      desc: "AI-powered tutoring platform that provides personalized learning experiences for students and educators.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and implemented an AI agent to tailor educational content to individual student needs.",
+        "Collaborated with educators to create a user-friendly interface for the platform."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Software Developer Intern",
+      company: "Kovan Labs",
+      companylogo: require("./assets/images/logo-kovan.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Developer",
+      company: "Purdue University(VIP Program)",
+      companylogo: require("./assets/images/purdueLogo.png"),
+      date: "May 2025 – Present",
+      desc: "Working on a research project focused on human-assistance robotics, developing algorithms to make robots assist patients with mobility issues in ROS.",
     }
   ]
 };
@@ -225,7 +254,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -349,7 +378,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
+  resumeLink: "https://drive.google.com/file/d/your-google-drive-file-id/view?usp=sharing",
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
