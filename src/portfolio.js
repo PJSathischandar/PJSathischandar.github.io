@@ -37,7 +37,6 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/prajitchandar/",
   gmail: "prajitchandar0@gmail.com",
   gitlab: "https://gitlab.com/PJSathischandar",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   
   display: true // Set true to display this section, defaults to false
 };
@@ -380,7 +379,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
   // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
