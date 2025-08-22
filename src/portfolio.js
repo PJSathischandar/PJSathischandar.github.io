@@ -36,7 +36,6 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/prajitchandar/",
   gmail: "prajitchandar0@gmail.com",
   gitlab: "https://gitlab.com/PJSathischandar",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   
   display: true // Set true to display this section, defaults to false
 };
@@ -220,41 +219,41 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "SOME THINGS I HAVE BEEN WORKING ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "AI for Alzheimer's",
+      projectDesc: "A tool for caregivers to help their Alzheimer's patients.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://example.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      projectName: "Stock Price Prediction",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: ""
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -379,7 +378,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
   // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -394,7 +393,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

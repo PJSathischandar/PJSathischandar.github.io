@@ -104,17 +104,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
-        <a
-          href={socialMediaLinks.stackoverflow}
-          className="icon-button stack-overflow"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-stack-overflow"></i>
-          <span></span>
-        </a>
-      ) : null}
+      
 
       {socialMediaLinks.kaggle ? (
         <a
